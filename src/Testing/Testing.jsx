@@ -1,3 +1,5 @@
+import "./testing.css"
+
 export default function Testing(){
     const Spread_syntax = {
         text: "Text from Spread Syntax"
@@ -17,7 +19,7 @@ export default function Testing(){
 // Default Function JSX
 export function DefaultJSX(){
     return (
-    <h1>Default JSX</h1>
+    <h1 className="default">Default JSX</h1>
     )
 }
 
@@ -42,7 +44,7 @@ export function ExampleJSWithCss(){
     )
 }
 
-// Example Props, if no input text at default function, then print "Aduh Kocak"
+// Example Props, if no input text at default function, then print "Aduh Kocak" and using only { }
 export function Props({text = "Aduh Kocak"}){
     const style = {
         color: "blue",
