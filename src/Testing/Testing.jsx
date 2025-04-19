@@ -1,4 +1,6 @@
-import "./testing.css"
+import "./Testing.css"
+
+// Experience Printing from different Method
 
 export default function Testing(){
     const Spread_syntax = {

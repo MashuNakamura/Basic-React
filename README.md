@@ -1,6 +1,6 @@
 # Basic-React
 
-### This is my React Learn Progress
+### This is my Basic-React Learn Progress
 
 You can try too !
 
