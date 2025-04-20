@@ -1,4 +1,4 @@
-// Example creating Children
+// Example creating Children to place Header and Footer
 
 export default function Container({children}){
     return (
